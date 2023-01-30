@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz.com</title>
+  <link rel="stylesheet" href="./quizapp.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div id="box">
+      <h2 id="quesBox"> 1.this the dumy question...</h2>
+      <div class="row">
+        <input class="options"  id="option1" name="samenameforchooseoneoptiononly" type="radio" value="a"  />
+        <label for="option1">option 1</label>
+      </div>
+
+      <div class="row">
+        <input class="options" id="option2" name="samenameforchooseoneoptiononly" type="radio" value="b"  />
+        <label for="option2">option 2</label>
+      </div>
+
+      <div class="row">
+        <input class="options" id="option3" name="samenameforchooseoneoptiononly" type="radio" value="c"  />
+        <label for="option3">option 3</label>
+      </div>
+
+      <div class="row">
+        <input class="options" id="option4" name="samenameforchooseoneoptiononly" type="radio" value="d"  />
+        <label for="option4">option 4</label>
+      </div>
+
+      <button class="btn" id="btn1"onclick="submitQuiz()">
+        Submit
+      </button>
+      <button class="previous" onclick="previous()"> <h4> previous</h4></button>
+      <button class="marklater" onclick="marklater()"> <h4> Mark for Later </h4></button>
+
+    </div>
+  </div>
+
+  <script src="./quizapp.js"></script>
+</body>
+
+</html>
